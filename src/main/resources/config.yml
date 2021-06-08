@@ -1,0 +1,21 @@
+#%prefix : [PlayerWhois]
+#%player : ターゲットの名前
+#%uuid : ターゲットのUUID
+#%world : ターゲットのいるワールド
+#%loc_X : ターゲットのX座標
+#%loc_Y : ターゲットのY座標
+#%loc_Z : ターゲットのZ座標
+#%address : ターゲットのIPアドレス
+#%ping : ターゲットのPing値
+#%gamemode : ターゲットのゲームモード
+#%flymode : ターゲットの飛行状態(on or off)
+#&<カラーコード>が利用できます。
+#%nで改行
+
+msg: "------| %prefix |------ %n
+      Player: %player (%uuid) %n
+      Location: %world (%loc_X,%loc_Y,%loc_Z) %n
+      IPAddress: %address %n
+      Ping: %ping %n
+      Gamemode: %gamemode %n
+      FlyMode: %flymode"

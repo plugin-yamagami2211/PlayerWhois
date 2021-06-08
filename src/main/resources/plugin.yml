@@ -1,0 +1,13 @@
+name: PlayerWhois
+version: ${project.version}
+main: me.yama2211.pw.Main
+
+commands:
+  plwhois:
+    permission: plwhois.use
+    description: plwhois command
+    usage: /<command> args
+permissions:
+  plwhois.cmd:
+    description: command permission
+    default: op
